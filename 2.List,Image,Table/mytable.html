@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Table</title>
+
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        } 
+
+        thead{
+            background-color: aqua;
+        }
+
+        tbody {
+            background-color: cyan;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <table>
+        
+        <thead>
+            <tr>
+                <th>Name</th>          
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anuj</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Raj</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>Yash</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>99</td>
+            </tr>  <tr>
+                <td>Shivam</td>
+                <td>45</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>9459</td>
+            </tr>
+        </tfoot>
+       
+       
+    </table> -->
+    <table>
+        <colgroup>
+        <col span="2" style="background-color:lightgreen;" >
+        </colgroup>
+        <tr>
+            <td colspan="2">2020</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Phone</td>  
+            <td>554475</td>
+        </tr>
+        <tr>
+            <td>756426</td>
+        </tr>
+    </table>
+</body>
+
+</html>

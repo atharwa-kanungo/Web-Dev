@@ -1,0 +1,68 @@
+/* h1{
+    color: darkgreen; 
+}
+
+
+p{
+    border:2px solid blue;
+} */
+
+
+/* *{
+    font-style: italic;
+} */
+
+
+/* .red-border {
+    background-color: cyan;
+    border: 5px solid red;
+}
+
+#lorem-text1 {
+    font-weight: bold;
+}
+
+.red-border,
+#lorem-text1, 
+h1 {
+
+    font-style: italic;
+
+} */
+header{
+
+    width:400px;
+    border:5px solid red;
+}
+
+
+header h1{
+
+    /* background-color:rgba(0, 255, 68, 0.659);  */
+    background-color: #2f8723dc;
+    background-color:hsl(200,50,40);
+  font-size:10vw;
+}
+
+h1{
+    font-size:10%;
+}
+
+img{
+    width:10vw;
+}
+
+header img{
+    width:vw;
+}
+
+/*
+ em
+ rem-root em
+ px
+ percentage unit
+ vw vh
+
+ percentage- relative to the parent
+ vw- relative to the size of screen
+*/

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Phudu', cursive;
+    background-color: wheat;
+}
+
+.container {
+    width: 80%;
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 1px 4px red, -4px -4px 1px 10px purple;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: burlywood;
+    /* text-align: center; */
+    text-decoration-line: underline;
+    text-decoration-color: cadetblue;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px;
+    /* text-decoration: underline blue 4px; */
+    text-transform: capitalize;
+    /* text-decoration: lowercase,upper case; */
+    text-shadow: 2px 2px 4px black,
+        2px 2px 4px red;
+    color: transparent;
+    position: absolute;
+    bottom: 100px;
+    display: inline-block;
+
+
+}
+
+
+p {
+    text-align: justify;
+    border: 2px dotted red;
+    text-indent: 100px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    word-spacing: 8px;
+    font-weight: bold;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans; */
+    font-style: oblique;
+
+}
